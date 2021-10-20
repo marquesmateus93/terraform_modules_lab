@@ -10,3 +10,9 @@ systemctl enable mariadb
 
 usermod -a -G apache ec2-user
 chown -R ec2-user:apache /var/www
+
+echo "Marques Labs" > /var/www/html/index.php
+# mkdir ~/app
+# git clone https://github.com/marquesmateus93/php_simple_app.git /app
+# cp ~/app/hosts.php /var/www/html/index.php
+# chown -R ec2-user:apache /var/www

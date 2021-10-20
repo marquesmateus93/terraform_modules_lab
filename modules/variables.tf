@@ -42,7 +42,7 @@ variable "vpc_id" {
 
 variable "vpc_subnets_ids" {
     type = list(string)
-    default = ["subnet-04585159", "subnet-7e608119"]
+    default = ["subnet-04585159", "subnet-7e608119", "subnet-39cdc516", "subnet-5175a71b"]
     description = "Subnets names."
 }
 
